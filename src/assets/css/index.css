@@ -1,0 +1,32 @@
+.slide-left {
+  animation: slide-left .6s;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 10px;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+
+/* carousel of announcements in the homepage */
+.carousel {
+  margin-top: 30px !important;
+}
+.carousel .slide {
+  background: #ececec !important;
+  text-align: left !important;
+}
+.carousel .carousel-status {
+  text-shadow: none !important;
+  color: #333333 !important;
+}
+.carousel .control-dots {
+  text-align: right !important;
+}
+.carousel .control-dots .dot {
+  background: #333 !important;
+  box-shadow: none !important;
+}
